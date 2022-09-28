@@ -18,10 +18,15 @@
   </header>
 
   <section id="events">
+
     <h2>Events in Action</h2>
-    <button>Add</button>
-    <button>Remove</button>
+
+    <button v-on:click="add()">Add</button>
+
+    <button v-on:click="decrease()">Remove</button>
+
     <p>Result: {{ counter }}</p>
+
   </section>
 
 </body>
