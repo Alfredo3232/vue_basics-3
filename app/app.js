@@ -14,7 +14,6 @@ const app = Vue.createApp({
     },
     reduce(num) {
       this.counter = this.counter - num;
-      // this.counter--;
     }
   }
 });
