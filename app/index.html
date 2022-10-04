@@ -23,7 +23,8 @@
 
     <section id="styling">
       <div
-        :class="{demo: true, active: boxASelected}"
+        class="demo"
+        :class="{active: boxASelected}"
         @click="boxSelected('A')"
       ></div>
       <div class="demo" @click="boxSelected('B')"></div>
